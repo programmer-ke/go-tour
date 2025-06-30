@@ -24,7 +24,7 @@ func (img Image) At(x, y int) color.Color {
 }
 
 func main() {
-	m := Image{3, 3}
+	m := Image{}
 	fmt.Println(m.Bounds())
 	fmt.Println(m.ColorModel())
 	fmt.Println(m.At(0, 0))
